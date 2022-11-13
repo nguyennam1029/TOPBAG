@@ -411,7 +411,7 @@ a {
 
 }
 
-.product-item:hover .product-item--hover {
+.product-item:hover.product-item--hover {
     opacity: 1;
 }
 

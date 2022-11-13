@@ -223,10 +223,11 @@ a {
     align-items       : center;
     gap               : 40px;
     text-transform    : uppercase;
-    position          : relative;
+
 }
 
 .nav-menu--item {
+    position          : relative;
     transition        : .24s linear;
     -webkit-transition: .24s linear;
     -moz-transition   : .24s linear;
@@ -234,7 +235,9 @@ a {
     -o-transition     : .24s linear;
 }
 
-
+.nav-menu--item .hover:hover {
+    color: #f1f1f1;
+}
 
 .nav-menu--item:hover>.sub-menu {
     left: 0;
@@ -242,7 +245,7 @@ a {
 
 .sub-menu {
     padding           : 20px;
-    top               : 40px;
+    top               : 32px;
     width             : 1170px;
     position          : absolute;
     left              : -9999px;
@@ -383,36 +386,9 @@ a {
 
 }
 
-.product-item--hover {
-    display           : flex;
-    justify-content   : center;
-    align-items       : center;
-    padding           : 10px 0;
-    opacity           : 0;
-    transition        : 0.24s linear;
-    -webkit-transition: 0.24s linear;
-    -moz-transition   : 0.24s linear;
-    -ms-transition    : 0.24s linear;
-    -o-transition     : 0.24s linear;
-}
-
-.product-hover--img {
-    width : 55px;
-    height: 55px;
-}
-
-.product-hover--img img {
-    width : 100%;
-    height: 100%;
-}
-
 .product-item:hover {
     border: 1px solid #ddd;
 
-}
-
-.product-item:hover .product-item--hover {
-    opacity: 1;
 }
 
 .product-item:hover .product-footer--btn {

@@ -384,16 +384,9 @@ a {
 }
 
 .product-item--hover {
-    display           : flex;
-    justify-content   : center;
-    align-items       : center;
-    padding           : 10px 0;
-    opacity           : 0;
-    transition        : 0.24s linear;
-    -webkit-transition: 0.24s linear;
-    -moz-transition   : 0.24s linear;
-    -ms-transition    : 0.24s linear;
-    -o-transition     : 0.24s linear;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
 }
 
 .product-hover--img {
@@ -409,10 +402,6 @@ a {
 .product-item:hover {
     border: 1px solid #ddd;
 
-}
-
-.product-item:hover .product-item--hover {
-    opacity: 1;
 }
 
 .product-item:hover .product-footer--btn {

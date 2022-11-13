@@ -223,18 +223,12 @@ a {
     align-items       : center;
     gap               : 40px;
     text-transform    : uppercase;
-    position          : relative;
+
 }
 
 .nav-menu--item {
-    transition        : .24s linear;
-    -webkit-transition: .24s linear;
-    -moz-transition   : .24s linear;
-    -ms-transition    : .24s linear;
-    -o-transition     : .24s linear;
+    position: relative;
 }
-
-
 
 .nav-menu--item:hover>.sub-menu {
     left: 0;
@@ -242,7 +236,7 @@ a {
 
 .sub-menu {
     padding           : 20px;
-    top               : 40px;
+    top               : 32px;
     width             : 1170px;
     position          : absolute;
     left              : -9999px;
@@ -283,11 +277,11 @@ a {
 .sub-menu--lable {
     display           : block;
     font-size         : 14px !important;
-    font-weight       : 400 !important;
+    font-weight       : 400;
     font-style        : normal;
     font-stretch      : normal;
     letter-spacing    : normal;
-    text-align        : left !important;
+    text-align        : left;
     color             : #666666;
     line-height       : 24px;
     background        : transparent;
@@ -295,8 +289,6 @@ a {
     -webkit-transition: color 0.2s ease;
     -o-transition     : color 0.2s ease;
     transition        : color 0.2s ease;
-    padding           : 0 !important;
-    text-transform    : capitalize !important;
 }
 
 .nav-menu--active {
@@ -383,36 +375,9 @@ a {
 
 }
 
-.product-item--hover {
-    display           : flex;
-    justify-content   : center;
-    align-items       : center;
-    padding           : 10px 0;
-    opacity           : 0;
-    transition        : 0.24s linear;
-    -webkit-transition: 0.24s linear;
-    -moz-transition   : 0.24s linear;
-    -ms-transition    : 0.24s linear;
-    -o-transition     : 0.24s linear;
-}
-
-.product-hover--img {
-    width : 55px;
-    height: 55px;
-}
-
-.product-hover--img img {
-    width : 100%;
-    height: 100%;
-}
-
 .product-item:hover {
     border: 1px solid #ddd;
 
-}
-
-.product-item:hover .product-item--hover {
-    opacity: 1;
 }
 
 .product-item:hover .product-footer--btn {
