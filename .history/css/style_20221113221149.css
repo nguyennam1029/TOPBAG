@@ -336,10 +336,10 @@ a {
     -moz-border-radius   : 4px;
     -ms-border-radius    : 4px;
     -o-border-radius     : 4px;
-    cursor               : pointer;
 }
 
-.am-next {
+.am-next,
+.am-next2 {
     position : absolute;
     top      : 50%;
     left     : 10px;
@@ -347,7 +347,8 @@ a {
 
 }
 
-.am-prev {
+.am-prev,
+.am-prev2 {
     position : absolute;
     top      : 50%;
     right    : 10px;
@@ -381,7 +382,7 @@ a {
 
 .product-item {
     text-align: center;
-    cursor    : pointer;
+
 }
 
 .product-item--hover {
@@ -395,10 +396,6 @@ a {
     -moz-transition   : 0.24s linear;
     -ms-transition    : 0.24s linear;
     -o-transition     : 0.24s linear;
-}
-
-.owl-carousel2 {
-    z-index: 9999;
 }
 
 .product-hover--img {
